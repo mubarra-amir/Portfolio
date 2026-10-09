@@ -2,7 +2,7 @@ import styles from './Nav.module.css';
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <img className={styles.logoImg} src="/logo.png" alt="mubarra.dev" />
+      <img className={styles.logoImg} src={`${import.meta.env.BASE_URL}logo.png`} alt="mubarra.dev" />
       <div className={styles.links}>
         <a href="#projects">Work</a>
         <a href="#stack">Stack</a>
